@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{FB56
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaWithoutFactoryPattern", "PizzeriaWithoutFactoryPattern\PizzeriaWithoutFactoryPattern.csproj", "{4A050BA6-5450-46CC-A7AB-969D0A30DF3B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaWithFactoryPattern", "PizzeriaWithFactoryPattern\PizzeriaWithFactoryPattern.csproj", "{D8872485-BFE8-48A5-9B60-097F48B0DE05}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,12 +19,17 @@ Global
 		{4A050BA6-5450-46CC-A7AB-969D0A30DF3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4A050BA6-5450-46CC-A7AB-969D0A30DF3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4A050BA6-5450-46CC-A7AB-969D0A30DF3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8872485-BFE8-48A5-9B60-097F48B0DE05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8872485-BFE8-48A5-9B60-097F48B0DE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8872485-BFE8-48A5-9B60-097F48B0DE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8872485-BFE8-48A5-9B60-097F48B0DE05}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{4A050BA6-5450-46CC-A7AB-969D0A30DF3B} = {FB56EBEB-ED09-459D-BF42-09D6D8D6AE1B}
+		{D8872485-BFE8-48A5-9B60-097F48B0DE05} = {FB56EBEB-ED09-459D-BF42-09D6D8D6AE1B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2DB62F5-E425-4517-8FC7-C5308B55D41D}
