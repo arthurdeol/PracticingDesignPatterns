@@ -5,9 +5,13 @@ VisualStudioVersion = 16.0.30907.101
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Factory", "Factory", "{FB56EBEB-ED09-459D-BF42-09D6D8D6AE1B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaWithoutFactoryPattern", "PizzeriaWithoutFactoryPattern\PizzeriaWithoutFactoryPattern.csproj", "{4A050BA6-5450-46CC-A7AB-969D0A30DF3B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaWithoutFactoryPattern", "PizzeriaWithoutFactoryPattern\PizzeriaWithoutFactoryPattern.csproj", "{4A050BA6-5450-46CC-A7AB-969D0A30DF3B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzeriaWithFactoryPattern", "PizzeriaWithFactoryPattern\PizzeriaWithFactoryPattern.csproj", "{D8872485-BFE8-48A5-9B60-097F48B0DE05}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PizzeriaWithFactoryPattern", "PizzeriaWithFactoryPattern\PizzeriaWithFactoryPattern.csproj", "{D8872485-BFE8-48A5-9B60-097F48B0DE05}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "FactoryMethod", "FactoryMethod", "{D55B2C8E-9129-43E9-8E4E-D57B492AF1E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryMethod", "FactoryMethod\FactoryMethod.csproj", "{8918E8F7-3309-4CD6-B153-3E1873423916}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +27,10 @@ Global
 		{D8872485-BFE8-48A5-9B60-097F48B0DE05}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D8872485-BFE8-48A5-9B60-097F48B0DE05}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D8872485-BFE8-48A5-9B60-097F48B0DE05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8918E8F7-3309-4CD6-B153-3E1873423916}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8918E8F7-3309-4CD6-B153-3E1873423916}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8918E8F7-3309-4CD6-B153-3E1873423916}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8918E8F7-3309-4CD6-B153-3E1873423916}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -30,6 +38,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{4A050BA6-5450-46CC-A7AB-969D0A30DF3B} = {FB56EBEB-ED09-459D-BF42-09D6D8D6AE1B}
 		{D8872485-BFE8-48A5-9B60-097F48B0DE05} = {FB56EBEB-ED09-459D-BF42-09D6D8D6AE1B}
+		{8918E8F7-3309-4CD6-B153-3E1873423916} = {D55B2C8E-9129-43E9-8E4E-D57B492AF1E9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2DB62F5-E425-4517-8FC7-C5308B55D41D}
